@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{3c713fb1-642d-432d-95cd-3a290b355f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GameSystem">
+      <UniqueIdentifier>{8b3d41fd-39d0-4e84-831e-64a368008035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene">
+      <UniqueIdentifier>{1f8a230d-f04b-4b4d-bb10-07d11d0b6ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Animation">
+      <UniqueIdentifier>{9af4b43f-4cff-476c-af1c-24ce59379f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Enemy">
+      <UniqueIdentifier>{fefcf073-a4d7-4a52-8547-59cd39deda2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Collider">
+      <UniqueIdentifier>{2f6bed38-8435-43ab-a2e2-b40f342e60eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ManagerClass">
+      <UniqueIdentifier>{ca5a9463-68f5-41b1-a55f-1b806d0a549b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Math">
+      <UniqueIdentifier>{6e61a542-c45c-430c-b518-4f75715a938d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Player">
+      <UniqueIdentifier>{603798e5-4e54-4015-93bb-b9e8ff532f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Camera">
+      <UniqueIdentifier>{48ebc492-c8b8-4907-81b4-cbb58d65279f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\BaseClass">
+      <UniqueIdentifier>{a174b188-f52a-4da4-924d-b26adf46c56a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Enemy\State">
+      <UniqueIdentifier>{db54fa33-c554-442f-82bc-1026115435bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Debug">
+      <UniqueIdentifier>{5cc61497-8202-4192-9ee6-6aeea9d2a6ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Color">
+      <UniqueIdentifier>{63a120f4-0fe1-4c77-b32f-a880e448db53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\State">
+      <UniqueIdentifier>{fea99b8c-c2ab-41e7-a5cc-3826f8a6c0a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Input">
+      <UniqueIdentifier>{bd384478-4718-4c2d-8414-97de40488e64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Player\State">
+      <UniqueIdentifier>{b3c22194-e635-4a94-89fb-c67054443895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Field">
+      <UniqueIdentifier>{bbea9790-c461-4555-ae08-24fb34f5e4b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Enemy\Strategy">
+      <UniqueIdentifier>{c796bbe9-c5e2-4f3b-a60c-39eaa072dfb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI">
+      <UniqueIdentifier>{9bd996a6-3c39-4ad3-a62b-2eb034f984b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Enemy\Weapon">
+      <UniqueIdentifier>{b846ec67-113e-457f-8d8d-1d44499a95ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Camera\Camera.cpp">
+      <Filter>Source\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameSystem\GameManager.cpp">
+      <Filter>Source\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameSystem\MainLoop.cpp">
+      <Filter>Source\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ManagerClass\FPSManager.cpp">
+      <Filter>Source\ManagerClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Math\Vector3.cpp">
+      <Filter>Source\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player\Soldier.cpp">
+      <Filter>Source\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BaseClass\StateBase.cpp">
+      <Filter>Source\BaseClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Color\Color.cpp">
+      <Filter>Source\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\State\MoveState.cpp">
+      <Filter>Source\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\State\IdleState.cpp">
+      <Filter>Source\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\State\AttackState.cpp">
+      <Filter>Source\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BaseClass\ColliderBase.cpp">
+      <Filter>Source\BaseClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collider\ObjectCollider.cpp">
+      <Filter>Source\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BaseClass\AIBase.cpp">
+      <Filter>Source\BaseClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collider\SphereCollider.cpp">
+      <Filter>Source\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ManagerClass\ColliderManager.cpp">
+      <Filter>Source\ManagerClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Math\MathMethod.cpp">
+      <Filter>Source\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Math\Matrix.cpp">
+      <Filter>Source\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collider\CubeCollider.cpp">
+      <Filter>Source\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Field\Field.cpp">
+      <Filter>Source\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BaseClass\MoverBase.cpp">
+      <Filter>Source\BaseClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Animation\Animation.cpp">
+      <Filter>Source\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\Mutant.cpp">
+      <Filter>Source\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\State\EnemyIdleState.cpp">
+      <Filter>Source\Enemy\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\State\EnemyAttackState.cpp">
+      <Filter>Source\Enemy\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\State\EnemyMoveState.cpp">
+      <Filter>Source\Enemy\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\Strategy\BossAI.cpp">
+      <Filter>Source\Enemy\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\HPBar.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Math\Vector2.cpp">
+      <Filter>Source\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BaseClass\UIBase.cpp">
+      <Filter>Source\BaseClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ManagerClass\UIManager.cpp">
+      <Filter>Source\ManagerClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\Button.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\TitleScene.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\PlayScene.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\ResultScene.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BaseClass\SceneBase.cpp">
+      <Filter>Source\BaseClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\Magician.cpp">
+      <Filter>Source\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\Strategy\LongRangeAI.cpp">
+      <Filter>Source\Enemy\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\Weapon\MagicBall.cpp">
+      <Filter>Source\Enemy\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ManagerClass\MoverManager.cpp">
+      <Filter>Source\ManagerClass</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Camera\Camera.h">
+      <Filter>Source\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BaseClass\MoverBase.h">
+      <Filter>Source\BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameSystem\GameManager.h">
+      <Filter>Source\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ManagerClass\FPSManager.h">
+      <Filter>Source\ManagerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player\Soldier.h">
+      <Filter>Source\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BaseClass\StateBase.h">
+      <Filter>Source\BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Color\Color.h">
+      <Filter>Source\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\State\IdleState.h">
+      <Filter>Source\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\State\MoveState.h">
+      <Filter>Source\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\State\AttackState.h">
+      <Filter>Source\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collider\CubeCollider.h">
+      <Filter>Source\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collider\SphereCollider.h">
+      <Filter>Source\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BaseClass\ColliderBase.h">
+      <Filter>Source\BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collider\ObjectCollider.h">
+      <Filter>Source\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BaseClass\AIBase.h">
+      <Filter>Source\BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ManagerClass\ColliderManager.h">
+      <Filter>Source\ManagerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\MathMethod.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Matrix.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Field\Field.h">
+      <Filter>Source\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Vector3.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Animation\Animator.h">
+      <Filter>Source\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\Mutant.h">
+      <Filter>Source\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\State\EnemyMoveState.h">
+      <Filter>Source\Enemy\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\State\EnemyIdleState.h">
+      <Filter>Source\Enemy\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\State\EnemyAttackState.h">
+      <Filter>Source\Enemy\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\Strategy\BossAI.h">
+      <Filter>Source\Enemy\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\HPBar.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ManagerClass\UIManager.h">
+      <Filter>Source\ManagerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BaseClass\UIBase.h">
+      <Filter>Source\BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\Button.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\TitleScene.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\PlayScene.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\ResultScene.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BaseClass\SceneBase.h">
+      <Filter>Source\BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\Magician.h">
+      <Filter>Source\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\Strategy\LongRangeAI.h">
+      <Filter>Source\Enemy\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\Weapon\MagicBall.h">
+      <Filter>Source\Enemy\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ManagerClass\MoverManager.h">
+      <Filter>Source\ManagerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Vector2.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
