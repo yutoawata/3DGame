@@ -9,6 +9,7 @@ struct Vector2 {
 	Vector2();
 	//二次元ベクトル用コンストラクタ
 	Vector2(int x_, int y_);
+	Vector2(float x_, float y_);
 	
 	Vector2(VECTOR vector_);
 

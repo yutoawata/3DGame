@@ -1,6 +1,6 @@
 #include "LongRangeAI.h"
 #include "DxLib.h"
-#include "..\..\Enemy\Enemy.h"
+#include "..\..\Enemy\Mutant.h"
 #include "..\..\Enemy\Magician.h"
 
 //テンプレートコンストラクタを実体化
