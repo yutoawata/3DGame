@@ -15,6 +15,12 @@ Vector2::Vector2(int x_, int y_) {
 }
 
 //コンストラクタ
+Vector2::Vector2(float x_, float y_) {
+	x = static_cast<int>(x_);
+	y = static_cast<int>(y_);
+}
+
+//コンストラクタ
 Vector2::Vector2(VECTOR vector_) {
 	x = static_cast<int>(vector_.x);
 	y = static_cast<int>(vector_.y);
