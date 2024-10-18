@@ -18,7 +18,7 @@ Matrix::Matrix(Vector3 vec_) {
 	row.emplace_back(vec_.z);
 	indexes.emplace_back(row);
 	row.clear();
-	row.emplace_back(1);
+	row.emplace_back(1.0f);
 	indexes.emplace_back(row);
 
 	clumNum = 1;
@@ -48,7 +48,7 @@ Matrix::Matrix(MATRIX matrix_) {
 Matrix Matrix::operator +(const Matrix& other_) const{
 	vector<vector<float>> result;
 	for (int i = 0; i < other_.rowNum; i++) {
-		float value = 0;
+		float value = 0.0f;
 		for (int j = 0; j < other_.rowNum; j++) {
 			value += indexes[i][j] + other_.indexes[j][i];
 		}
@@ -61,7 +61,7 @@ Matrix Matrix::operator +(const Matrix& other_) const{
 Matrix Matrix::operator -(const Matrix& other_) const{
 	vector<vector<float>> result;
 	for (int i = 0; i < other_.rowNum; i++) {
-		float value = 0;
+		float value = 0.0f;
 		for (int j = 0; j < other_.rowNum; j++) {
 			value += indexes[i][j] - other_.indexes[j][i];
 		}
@@ -80,7 +80,7 @@ Matrix Matrix::operator *(const Matrix& other_) const{
 
 		//右辺行列の列ループ
 		for (int j = 0; j < other_.clumNum; j++) {
-			float value = 0;
+			float value = 0.0f;
 
 			//左辺行列の列ループ
 			for (int k = 0; k < clumNum; k++) {
