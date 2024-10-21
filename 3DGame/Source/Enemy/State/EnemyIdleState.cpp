@@ -25,11 +25,12 @@ StateBase<Object>* EnemyIdleState<Object>::Run() {
 
 	//移動方向を算出
 	Vector3 direction = this->holder->getAI<Object>()->SelectMovePosition() - this->holder->getPosition();
+	direction.y = 0.0f;
 	//1フレームでの移動量を算出
 	float moveSpeed = this->holder->getSpeed() * FPSManager::getInstance()->getDeltaTime();
 
 	//移動先の座標から離れているなら
-	if (direction.getSize() >= moveSpeed) {
+	if (direction.getSize() > moveSpeed) {
 		Object* holderAddress = this->holder;
 		delete this;
 		//移動状態に遷移
