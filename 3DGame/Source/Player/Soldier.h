@@ -12,10 +12,11 @@ class Soldier : public MoverBase {
 public://ƒƒ“ƒoŠÖ”
 	enum class Animation {
 		ATTACK,
+		AVOID,
 		DAMAGE,
+		DIE,
 		IDLE,
 		JUMP,
-		AVOID,
 		RUN,
 		WALK
 	};

@@ -21,7 +21,7 @@ private:
 	//ゲームウィンドウ設定定数--------------
 	static const int SCREEN_WIDTH = 1920;	//ゲームウィンドウの横幅
 	static const int SCREEN_HEIGHT = 1080;	//ゲームウィンドウの縦幅
-	static const int SCREEN_COLOR = 32;	//ゲームウィンドウのカラービット
+	static const int SCREEN_COLOR = 32;		//ゲームウィンドウのカラービット
 
 	//メンバ変数
 

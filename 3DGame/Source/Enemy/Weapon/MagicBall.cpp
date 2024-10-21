@@ -2,7 +2,7 @@
 #include "..\..\ManagerClass\FPSManager.h"
 
 const float MagicBall::ACTIVE_TIME = 5.0f;
-const float MagicBall::IDLING_TIME = 1.0f;
+const float MagicBall::IDLING_TIME = 2.0f;
 
 //コンストラクタ
 MagicBall::MagicBall(Vector3 position_, Vector3 direction_, float high_, int model_handle)

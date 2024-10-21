@@ -37,7 +37,7 @@ private:
 	//メンバ変数
 	Vector3 direction = Vector3::ZERO;	//移動方向
 	int colliderNum = 0;				//攻撃用のコライダー要素番号
-	float speed = 300.0f;				//移動速度
+	float speed = 200.0f;				//移動速度
 	float radius = 30.0f;				//半径
 	float high = 0.0f;					//発射位置の高さ
 	float timer = 0.0f;					//タイマー
