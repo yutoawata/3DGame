@@ -17,7 +17,7 @@ class Mutant : public MoverBase {
 	};
 public://メンバ関数
 	//コンストラクタ
-	Mutant(MoverBase* target_, Vector3 position_ = Vector3(200.0f, 80.0f, 200.0f), int model_handle = MV1LoadModel("3DModel/Enemy.mv1"));
+	Mutant(MoverBase* target_, Vector3 position_ = Vector3(200.0f, 80.0f, 200.0f), int model_handle = MV1LoadModel("./3DModel/Enemy.mv1"));
 	//デストラクタ
 	~Mutant();
 

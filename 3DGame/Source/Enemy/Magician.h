@@ -19,7 +19,7 @@ class Magician : public MoverBase {
 	//メンバ関数
 public:
 	//コンストラクタ
-	Magician(MoverBase* target_, MoverBase* boss_, Vector3 position_, int model_handle = MV1LoadModel("3DModel/Magician.mv1"));
+	Magician(MoverBase* target_, MoverBase* boss_, Vector3 position_, int model_handle = MV1LoadModel("./3DModel/Magician.mv1"));
 	//デストラクタ
 	~Magician();
 

@@ -21,7 +21,7 @@ public://メンバ関数
 	};
 
 	//コンストラクタ
-	Soldier(Vector3 position_ = Vector3(0.0f, 40.0f, 0.0f), int model_handle = MV1LoadModel("3DModel/Player.mv1"));
+	Soldier(Vector3 position_ = Vector3(0.0f, 40.0f, 0.0f), int model_handle = MV1LoadModel("./3DModel/Player.mv1"));
 	//デストラクタ
 	~Soldier();
 	
