@@ -48,7 +48,7 @@ private:
 	void ChengeAnimation(std::string animation_name);
 
 	//メンバ定数
-	static const int HIT_POINT = 1000;	//hitPointの最大値
+	static const int HIT_POINT = 200;	//hitPointの最大値
 
 	//メンバ変数
 	LongRangeAI<Magician>* AI = nullptr;		//遠距離攻撃用のAI

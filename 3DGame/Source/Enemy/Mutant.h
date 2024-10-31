@@ -42,7 +42,7 @@ private:
 
 	//メンバ定数
 	static const int WEAPON_FRAME_NUM = 13;	//武器のフレーム番号
-	static const int HIT_POINT = 600;		//hitPointの最大値
+	static const int HIT_POINT = 400;		//hitPointの最大値
 	static const int ATTACK_POINT = 10;		//攻撃力
 	static const float MOVE_SPEED;			//移動速度
 	static const float SEARCH_DISTANCE;		//索敵範囲
